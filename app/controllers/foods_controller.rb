@@ -1,5 +1,5 @@
 class FoodsController < ApplicationController
-  before_action :find_food, only: [:edit, :update]
+  before_action :find_food, only: [:edit, :update, :destroy]
 
   def index
 
